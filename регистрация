@@ -1,0 +1,17 @@
+a=["login","parol"]
+y=a[0]
+q=a[1]
+f=open("file.txt",'w')
+f.write(input("login"))
+print()
+f.write(input("login"))
+print()
+f.write(input("parol"))
+print()
+f.write(input("parol"))
+print()
+f.close()
+if a[0]==y  and a[1]==q :
+    print("Регистрация окончена")
+ 
+
